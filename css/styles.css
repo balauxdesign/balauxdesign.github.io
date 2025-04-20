@@ -1475,12 +1475,12 @@ code {
     font-size     : var(--text-sm);
     line-height   : 1.6rem;
     margin        : 0 .2rem;
-    padding       : calc(((var(--vspace-1) - 1.6rem) / 2) - .1rem) calc(.8rem - .1rem);
+    padding       : 8px 16px;
     white-space   : nowrap;
     background    : var(--color-black);
     border        : 1px solid var(--color-gray-8);
     color         : var(--color-text-dark);
-    border-radius : 3px;
+    border-radius : 25px;
 }
 
 pre>code {
@@ -4300,4 +4300,13 @@ img.u-pull-left {
     display: flex;
     align-items: end;
     justify-content: center; 
+}
+.vh-100{
+    min-height: 100vh !important;
+}
+.pills{
+    margin: 24px 0;
+}
+.margin-bottom-2x{
+    margin-bottom: 24px;
 }
